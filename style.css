@@ -5,28 +5,21 @@ body {
     background-color: #0D192C;
     font-family: 'Outfit', sans-serif;
     height: 100vh;
-
 }
 
 .card {
     position: relative;
-
     width: 350px;
     box-sizing: border-box;
     padding: 24px;
     border-radius: 15px;
     background-color: #15263F;
-
-
-
 }
 
 .main-img {
-
     max-width: 100%;
     border-radius: 8px;
     cursor: pointer;
-
 }
 
 .eye {
@@ -73,6 +66,7 @@ h2 {
 
 .flex-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #2E405A;
 
@@ -83,11 +77,14 @@ h1:hover {
 }
 
 .flex-ethereum {
+    display: flex;
     color: #00FFF8;
     margin-bottom: 24px;
 }
 
 .flex-time {
+    display: flex;
+    margin-bottom: 24px;
     color: #8BACD9;
 }
 
@@ -104,7 +101,12 @@ h1:hover {
     height: 33px;
     border-radius: 50px;
     border: 1px solid white;
+}
 
+.author:hover{
+    width: 55px;
+    height: 55px;
+    transition: 1000ms;
 }
 
 .creator {
@@ -112,7 +114,7 @@ h1:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    padding: 0 5px 0;
+    /* padding: 0 5px 0; */
 }
 
 .name {
@@ -120,15 +122,13 @@ h1:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    padding-right: 69px;
+    /* padding-right: 69px; */
 
 }
-
 .name:hover {
     cursor: pointer;
     color: #00FFF8;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-
 }
